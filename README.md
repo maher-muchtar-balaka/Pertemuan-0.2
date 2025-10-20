@@ -1,4 +1,4 @@
-Pertemuan 02 — Basic CSS
+# Pertemuan 02 — Basic CSS
 
 Ringkasan:
 Panduan singkat untuk memahami dasar-dasar CSS: selector, warna, font, dan tata letak. Cocok sebagai materi pengantar untuk mempercantik tampilan halaman web.
@@ -20,14 +20,14 @@ Contoh singkat untuk langsung dicoba
 
 ---
 
-❓ Apa itu CSS?
+# ❓ Apa itu CSS?
 
 CSS (Cascading Style Sheets) digunakan untuk mengatur tampilan halaman web agar lebih rapi dan menarik — mis. warna, ukuran font, jarak, dan layout.
 
 
 ---
 
-🧭 Selector utama
+# 🧭 Selector utama
 
 Terdapat tiga selector yang sering dipakai:
 
@@ -41,7 +41,7 @@ Selector id (#namaID) — untuk elemen yang unik pada satu halaman
 
 ---
 
-🛠️ Cara menerapkan CSS
+# 🛠️ Cara menerapkan CSS
 
 1. CSS Internal
 
