@@ -1,0 +1,64 @@
+body {
+  background-color: #ffffff;
+  color: #111;
+  font-family: Verdana, Arial, sans-serif;
+  margin: 30px;
+}
+
+/* Judul utama */
+h1 {
+  text-align: center;
+  color: steelblue;
+  margin-top: 10px;
+}
+
+/* Subjudul */
+h2 {
+  background-color: #e0e0e0;
+  padding: 8px;
+  border-radius: 6px;
+}
+
+/* Spasi antar bagian */
+section {
+  margin: 25px 0;
+}
+
+/* Kotak hasil */
+.hasil {
+  background-color: #f7f7f7;
+  padding: 12px;
+  border: 1px solid #bbb;
+  border-radius: 5px;
+}
+
+/* Paragraf tanggal di kanan */
+p.tanggal {
+  text-align: right;
+  font-style: italic;
+  color: #555;
+}
+
+/* Paragraf utama rata kiri-kanan */
+p.isi {
+  text-align: justify;
+  line-height: 1.6;
+}
+
+/* Paragraf dengan font serif */
+p.serif {
+  font-family: "Georgia", "Times New Roman", serif;
+}
+
+/* Paragraf dengan font sans-serif */
+p.sans {
+  font-family: "Arial", "Helvetica", sans-serif;
+}
+
+/* Tambahan gaya umum */
+.container {
+  background-color: #fafafa;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
