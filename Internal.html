@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contoh CSS Internal</title>
+
+  <!-- CSS Internal -->
+  <style>
+    /* Semua paragraf di dalam section dengan class "P" */
+    .P p {
+      text-align: center;
+      color: red;
+    }
+
+    /* Elemen dengan id "paragraf1" */
+    #paragraf1 {
+      text-align: center;
+      color: red;
+    }
+
+    /* Class "tengah" */
+    .tengah {
+      text-align: center;
+      color: red;
+    }
+
+    /* Class "p-pusat" */
+    .p-pusat p {
+      text-align: center;
+      color: red;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Bagian 1 -->
+  <section class="P">
+    <p>Setiap paragraf akan dipengaruhi oleh gaya ini.</p>
+    <p id="paragraf1">Saya juga!</p>
+    <p>Dan aku!</p>
+  </section>
+
+  <!-- Bagian 2 -->
+  <section id="paral">
+    <h1 id="paragraf1">Halo Dunia!</h1>
+    <h1>Paragraf ini tidak terpengaruh oleh gaya.</h1>
+  </section>
+
+  <!-- Bagian 3 -->
+  <section class="tengah">
+    <h1 class="tengah">Judul berwarna merah dan rata tengah</h1>
+    <p class="tengah">Paragraf berwarna merah dan rata tengah.</p>
+  </section>
+
+  <!-- Bagian 4 -->
+  <section class="p-pusat">
+    <h1>Judul ini tidak akan terpengaruh</h1>
+    <p>Paragraf ini akan berwarna merah dan rata tengah.</p>
+  </section>
+
+</body>
+</html>
