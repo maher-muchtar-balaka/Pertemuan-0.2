@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Praktikum Modul 0.2 - Bahasa Indonesia</title>
+  <style>
+    /* Reset sederhana */
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+      color: #333;
+      text-align: center;
+      padding: 60px 16px;
+      line-height: 1.5;
+    }
+
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      background: #ffffff;
+      padding: 40px;
+      border-radius: 12px;
+      box-shadow: 0 6px 20px rgba(0,0,0,0.06);
+    }
+
+    h1 {
+      font-size: 1.6rem;
+      margin-bottom: 20px;
+    }
+
+    p.lead {
+      margin-bottom: 24px;
+      color: #555;
+    }
+
+    nav a {
+      display: inline-block;
+      margin: 6px 12px;
+      padding: 10px 16px;
+      text-decoration: none;
+      border-radius: 8px;
+      border: 1px solid #ddd;
+      background: #fafafa;
+      transition: transform 0.12s ease, box-shadow 0.12s ease;
+    }
+
+    nav a:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 6px 14px rgba(0,0,0,0.06);
+    }
+
+    footer {
+      margin-top: 28px;
+      font-size: 0.9rem;
+      color: #777;
+    }
+
+    /* Responsif sederhana */
+    @media (max-width: 480px) {
+      .container {
+        padding: 24px;
+      }
+
+      h1 { font-size: 1.3rem; }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Praktikum HTML + CSS — Modul 0.2</h1>
+
+    <p class="lead">
+      Contoh struktur HTML dengan CSS internal. Gunakan halaman ini sebagai titik awal untuk latihan CSS internal, internal.css, atau eksternal.
+    </p>
+
+    <nav aria-label="Tautan contoh">
+      <!-- Ganti href dengan file yang sebenarnya jika ada -->
+      <a href="internal.html">CSS Internal</a>
+      <a href="eksternal.html">CSS Eksternal</a>
+      <a href="#" onclick="alert('Contoh: buka internal.html atau eksternal.html')">Demo</a>
+    </nav>
+
+    <section>
+      <h2 style="margin-top:20px; font-size:1.1rem;">Penjelasan singkat</h2>
+      <p style="margin-top:8px; color:#666;">
+        - <strong>Internal CSS</strong> diletakkan di dalam tag &lt;style&gt; pada &lt;head&gt; (seperti pada file ini).<br>
+        - <strong>Eksternal CSS</strong> dibuat di file .css terpisah dan dihubungkan lewat &lt;link rel="stylesheet"&gt;.
+      </p>
+    </section>
+
+    <footer>
+      Dibuat untuk Praktikum Modul 0.2 — Bahasa Indonesia
+    </footer>
+  </div>
+</body>
+</html>
