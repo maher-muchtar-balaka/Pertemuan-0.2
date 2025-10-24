@@ -1,21 +1,20 @@
-h1 {
+ h1 {
   color: red;
   border: 15px solid blue;
 }
 
-body {
-  text-align: center;
+pre {
 }
 
-pre .garis-love {
+.garis-love {
   text-align: left;
   font-size: 24px;
-  letter-spacing: 10px;
+  letter-spacing: 10px; /* jarak antar love */
   color: red;
 }
 
 .garis-love::before {
-  content: "❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️";
+  content: "❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️"
 }
 
 .border-love {
@@ -32,7 +31,7 @@ pre .garis-love {
 }
 
 .border-love::before {
-  content: "❤️ 💕 💞 💖 💘 💝 💗 💓 💌 ❤️ 💕 💞";
+  content: "❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️";
   position: absolute;
   top: -20px;
   left: 0;
@@ -42,7 +41,7 @@ pre .garis-love {
 }
 
 .border-love::after {
-  content: "❤️ 💕 💞 💖 💘 💝 💗 💓 💌 ❤️ 💕 💞";
+  content: "❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️";
   position: absolute;
   bottom: -20px;
   left: 0;
@@ -50,3 +49,26 @@ pre .garis-love {
   text-align: center;
   font-size: 18px;
 }
+
+nav ul {
+  list-style: none; /* hilangkan titik list */
+  padding: 0;
+  margin: 0;
+  background-color: #333;
+  overflow: hidden;
+}
+
+nav ul li {
+  float: left; /* sejajarkan ke samping */
+}
+
+nav ul li a {
+  display: block;
+  color: greenyellow;
+  text-decoration: none;
+  padding: 14px 20px;
+}
+
+nav ul li a:hover {
+  background-color: #555; /* warna saat kursor di atas menu */
+  }
